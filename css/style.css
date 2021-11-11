@@ -87,7 +87,17 @@ body {
 .header__enter-logo {
    margin: 0px 0px 0px 30.9%;
 }
+@media (max-width: 992px) {
+   .header__enter-logo {
+      margin: 0px 0px 0px 20%;
+   }
 }
+@media (max-width: 823px) {
+   .header__enter-logo {
+      margin: 0px 0px 0px 10%;
+   }
+}
+
 .header__enter-text {
    margin-right: 21%;
 }
@@ -99,7 +109,7 @@ body {
    width: 100%;
    left: 0;
    top: 44px;
-  
+
    z-index: 5;
 }
 
@@ -123,7 +133,18 @@ body {
 .nav__menu {
    margin: 0px 0px 0px 25.4%;
 }
+@media (max-width: 992px) {
+   .nav__menu {
+      margin: 0px 0px 0px 20%;
+   }
+}
+@media (max-width: 823px) {
+   .nav__menu {
+      margin: 0px 0px 0px 10%;
+   }
+}
 .menu {
+   padding: 5px 0px;
 }
 .menu__list {
    flex-wrap: wrap;
@@ -146,10 +167,3 @@ body {
    color: inherit;
    background-color: #1f1f1f;
 }
-/* .rectangle{
-
-   width: 136px;
-   height: 80;
-   color: background: #1F1F1F;
-   z-index: 5;
-} */
